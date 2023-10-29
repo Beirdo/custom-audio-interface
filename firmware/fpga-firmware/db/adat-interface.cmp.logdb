@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ADAT_receiver:adat0_receiver|mult12x8:multiplier|lpm_mult:lpm_mult_component|mult_qfo:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,ADAT_receiver:adat1_receiver|mult12x8:multiplier|lpm_mult:lpm_mult_component|mult_qfo:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,ADAT_receiver:adat0_receiver|mult12x8:multiplier|lpm_mult:lpm_mult_component|mult_qfo:auto_generated|mac_mult1,

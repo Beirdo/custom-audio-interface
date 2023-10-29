@@ -1,0 +1,9 @@
+INTENDED_DEVICE_FAMILY="Cyclone II"
+USE_GLITCH_FREE_SWITCH_OVER_IMPLEMENTATION=OFF
+clock_type=AUTO
+DEVICE_FAMILY="Cyclone II"
+clkselect
+ena
+inclk
+inclk
+outclk

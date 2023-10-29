@@ -332,6 +332,14 @@
     [
       "915907be-1974-412c-bb73-cdf10f64120e",
       "Programming"
+    ],
+    [
+      "122ac62b-25a3-47f6-a03d-a9f3c3c6ec9b",
+      "SPDIF"
+    ],
+    [
+      "49fbd02d-de17-4ccb-ba86-3794babdc961",
+      "ADAT Interface"
     ]
   ],
   "text_variables": {}

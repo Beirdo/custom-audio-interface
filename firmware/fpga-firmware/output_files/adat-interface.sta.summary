@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'm_clk'
+Slack : -10.043
+TNS   : -704.719
+
+Type  : Slow Model Setup 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -3.834
+TNS   : -711.192
+
+Type  : Slow Model Setup 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : -3.830
+TNS   : -701.296
+
+Type  : Slow Model Setup 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -2.642
+TNS   : -421.036
+
+Type  : Slow Model Setup 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : -1.754
+TNS   : -257.822
+
+Type  : Slow Model Setup 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : -1.744
+TNS   : -255.192
+
+Type  : Slow Model Setup 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : -0.378
+TNS   : -30.582
+
+Type  : Slow Model Hold 'm_clk'
+Slack : -1.236
+TNS   : -2.146
+
+Type  : Slow Model Hold 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -0.735
+TNS   : -0.735
+
+Type  : Slow Model Hold 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : 0.135
+TNS   : 0.000
+
+Type  : Slow Model Hold 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : 0.656
+TNS   : 0.000
+
+Type  : Slow Model Hold 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : 0.666
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Slow Model Hold 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : 2.692
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -1.919
+TNS   : -368.448
+
+Type  : Slow Model Recovery 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : -0.847
+TNS   : -162.624
+
+Type  : Slow Model Removal 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 1.571
+TNS   : 0.000
+
+Type  : Slow Model Removal 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : 2.643
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'm_clk'
+Slack : -2.269
+TNS   : -333.453
+
+Type  : Slow Model Minimum Pulse Width 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -0.742
+TNS   : -672.252
+
+Type  : Slow Model Minimum Pulse Width 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : -0.742
+TNS   : -672.252
+
+Type  : Slow Model Minimum Pulse Width 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -0.742
+TNS   : -284.928
+
+Type  : Slow Model Minimum Pulse Width 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : -0.742
+TNS   : -284.928
+
+Type  : Slow Model Minimum Pulse Width 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : 23.758
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : 23.758
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'adat0_bitclk_in'
+Slack : 50.000
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'adat1_bitclk_in'
+Slack : 50.000
+TNS   : 0.000
+
+Type  : Fast Model Setup 'm_clk'
+Slack : -1.358
+TNS   : -105.359
+
+Type  : Fast Model Setup 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : -0.656
+TNS   : -96.535
+
+Type  : Fast Model Setup 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -0.652
+TNS   : -101.350
+
+Type  : Fast Model Setup 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : -0.289
+TNS   : -22.453
+
+Type  : Fast Model Setup 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : -0.279
+TNS   : -20.533
+
+Type  : Fast Model Setup 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -0.184
+TNS   : -11.041
+
+Type  : Fast Model Setup 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 0.608
+TNS   : 0.000
+
+Type  : Fast Model Hold 'm_clk'
+Slack : -1.011
+TNS   : -1.923
+
+Type  : Fast Model Hold 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -0.079
+TNS   : -0.079
+
+Type  : Fast Model Hold 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 0.162
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : 0.223
+TNS   : 0.000
+
+Type  : Fast Model Hold 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : 0.228
+TNS   : 0.000
+
+Type  : Fast Model Hold 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : 0.238
+TNS   : 0.000
+
+Type  : Fast Model Hold 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : 0.864
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -0.081
+TNS   : -15.552
+
+Type  : Fast Model Recovery 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 0.320
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : 0.550
+TNS   : 0.000
+
+Type  : Fast Model Removal 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : 0.951
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'm_clk'
+Slack : -1.519
+TNS   : -224.292
+
+Type  : Fast Model Minimum Pulse Width 'ADAT_receiver:adat0_receiver|adat_bit_clk'
+Slack : -0.500
+TNS   : -453.000
+
+Type  : Fast Model Minimum Pulse Width 'ADAT_receiver:adat1_receiver|adat_bit_clk'
+Slack : -0.500
+TNS   : -453.000
+
+Type  : Fast Model Minimum Pulse Width 'ADAT_receiver:adat0_receiver|adat_latch'
+Slack : -0.500
+TNS   : -192.000
+
+Type  : Fast Model Minimum Pulse Width 'ADAT_receiver:adat1_receiver|adat_latch'
+Slack : -0.500
+TNS   : -192.000
+
+Type  : Fast Model Minimum Pulse Width 'tdm_pll|altpll_component|pll|clk[0]'
+Slack : 24.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'tdm_pll|altpll_component|pll|clk[0]~1'
+Slack : 24.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'adat0_bitclk_in'
+Slack : 50.000
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'adat1_bitclk_in'
+Slack : 50.000
+TNS   : 0.000
+
+------------------------------------------------------------
